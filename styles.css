@@ -1,5 +1,60 @@
-h2 {
-    font-size: 40px;
-    background-color: yellow;
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header {
+    background-color: #E6E6E6;
     text-align: center;
+}
+
+header img {
+    margin: 20px
+}
+
+header div {
+    background-color: #C4C4C4;
+    padding: 1px;
+    margin-bottom: 128px;
+}
+
+header div h1 {
+    color: #005677;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+section div {
+    background-color: #C4C4C4;
+}
+
+section h2 {
+    color: #005677;    
+    letter-spacing: 5px;
+    margin-left: 10px;
+    padding: 5px 0px;
+}
+
+section dt {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+section span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+main {
+    margin-bottom: 147px;
+}
+
+footer {
+    color: white;
+    background-color: #005677;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
